@@ -53,7 +53,3 @@ html_files = [
     "../Q315/Q61509/Q532.html",
     "../Q315/Q61509/Q8063.html",
 ]
-
-languages = ["en", "fr", "ml", "pa", "hi", "pt", "es", "it", "de", "nl"]
-for html_file in html_files:
-    labels = Identifier.get_labels_for_html_file(html_file, languages)

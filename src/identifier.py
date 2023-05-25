@@ -6,6 +6,7 @@
 
 from bs4 import BeautifulSoup
 import re
+import math
 import pandas as pd
 from query import MediaWiki
 
@@ -53,35 +54,45 @@ class Identifier:
         return identifiers
 
     @staticmethod
-    def get_labels_for_html_file(filepath, languages):
-        labels = dict()
-        identifiers = Identifier.extract_identifiers_from_html_file(filepath)
-
+    def update_labels_for_identifiers(identifiers=None, languages=None):
         # Get existing labels
         labels_df = Identifier.get_existing_identifiers()
 
         # Check if labels already exist
         for language in languages:
             missing_labels_for_identifiers = []
-            for identifier in identifiers:
-                if identifier in labels_df["identifier"].values:
-                    value = labels_df.loc[labels_df["identifier"] == identifier][
-                        language
-                    ].values[0]
-                    if value != "":
-                        labels[identifier] = value
-                        continue
 
-                # Label is missing for the given language. Add to the list of identifiers missing labels
-                missing_labels_for_identifiers.append(identifier)
+            if identifiers is not None:
+                for identifier in identifiers:
+                    if identifier in labels_df["identifier"].values:
+                        value = labels_df.loc[labels_df["identifier"] == identifier][
+                            language
+                        ].values[0]
+                        if value != "":
+                            continue
 
-            for i in range(0, len(identifiers), 10):
-                sublist = identifiers[i : i + 10]
+                    # Label is missing for the given language. Add to the list of identifiers missing labels
+                    missing_labels_for_identifiers.append(identifier)
+            else:
+                for identifier in labels_df["identifier"].values:
+                    if identifier in labels_df["identifier"].values:
+                        value = labels_df.loc[labels_df["identifier"] == identifier][
+                            language
+                        ].values[0]
+                        if (type(value) == str and value != "") or (
+                            type(value) == float and not math.isnan(value)
+                        ):
+                            continue
+
+                    # Label is missing for the given language. Add to the list of identifiers missing labels
+                    missing_labels_for_identifiers.append(identifier)
+
+            for i in range(0, len(missing_labels_for_identifiers), 50):
+                sublist = missing_labels_for_identifiers[i : i + 50]
                 missing_labels = MediaWiki.get_labels(sublist, language)
 
                 # Update the labels data frame
                 for key, value in missing_labels.items():
-                    labels[key] = value
                     if key in labels_df["identifier"].values:
                         labels_df.loc[labels_df["identifier"] == key, language] = value
                     else:
@@ -90,8 +101,13 @@ class Identifier:
                         labels_df = pd.concat(
                             [labels_df, new_row_df], axis=0, ignore_index=True
                         )
-            print(labels_df)
 
+        print(labels_df)
         labels_df.to_csv(Identifier.identifiers_file, index=False)
 
-        return labels
+    @staticmethod
+    def update_labels_for_html_file(filepath, languages):
+        labels = dict()
+        identifiers = Identifier.extract_identifiers_from_html_file(filepath)
+
+        Identifier.update_labels_for_identifiers(identifiers, languages)
