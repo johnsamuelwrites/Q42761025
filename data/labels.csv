@@ -2,7 +2,7 @@ identifier,en,fr,ml,pa,hi,pt,es,it,de,nl
 Q315,language,langage,ഭാഷ,ਭਾਸ਼ਾ,भाषा,linguagem,lenguaje,linguaggio,Sprache,taal
 Q42761025,John Samuel,John Samuel,ജോൺ ശമൂവേൽ,,,John Samuel,John Samuel,John Samuel,John Samuel,John Samuel
 Q11439,home page,page d'accueil,വെബ് സൈറ്റ്,,मुखपृष्ठ,página inicial,página de inicio,home page,Homepage,homepage
-Q186649,curriculum vitae,curriculum vitæ,,ਤਜਰਬਾ ਪੱਤਰੀ,,curriculum vitæ,currículum vitae,curriculum vitae,Lebenslauf (Bewerbung),curriculum vitae
+Q186649,curriculum vitae,curriculum vitæ,,ਤਜਰਬਾ ਪੱਤਰੀ,,curriculum vitæ,currículum vitae,curriculum vitae,Lebenslauf,curriculum vitae
 Q352842,teaching,enseignement,പഠിപ്പിക്കൽ,,,ensino,enseñanza,insegnamento,Lehren,onderwijzen
 Q3702971,personal data,données personnelles,വ്യക്തിഗത വിവരണം,,व्यक्तिगत जानकारी,dados pessoais,datos personales,dato personale,personenbezogene Daten,persoonsgegevens
 Q42240,research,recherche scientifique,ഗവേഷണം,ਖੋਜ,अनुसंधान,investigação científica,investigación científica,ricerca scientifica,Forschung,wetenschappelijk onderzoek
@@ -14,13 +14,13 @@ Q11424,film,film,ചലച്ചിത്രം,ਫ਼ਿਲਮ,फ़िल्�
 Q5398426,television series,série télévisée,ടെലിവിഷൻ പരമ്പര,ਟੈਲੀਵਿਜ਼ਨ ਲੜੀ,टेलीविजन शृंखला,série de televisão,serie de televisión,serie televisiva,Fernsehserie,televisieserie
 Q93204,documentary film,film documentaire,,ਦਸਤਾਵੇਜ਼ੀ ਫ਼ਿਲਮ,वृत्त चित्र,filme documental,documental,documentario,Dokumentarfilm,documentairefilm
 Q12271,architecture,architecture,വാസ്തുവിദ്യ,ਵਾਸਤੂਕਲਾ,वास्तुशास्त्र,arquitetura,arquitectura,architettura,Architektur,architectuur
-Q65044042,emphasis,emphase,,,,,,,,Emfase
+Q65044042,emphasis,emphase,,,,,énfasis,,,emfase
 Q10884,tree,arbre,മരം,ਰੁੱਖ,वृक्ष,árvore,árbol,albero,Baum,boom
 Q1455736,symmetry,symétrie,,ਸਮਰੂਪਤਾ,,simetria,simetría en física,simmetria,Symmetrie,symmetrie
 Q1644573,pilgrimage,pèlerinage,തീർത്ഥാടനം,,तीर्थ,peregrinação,peregrinación,pellegrinaggio,Wallfahrt,bedevaart
 Q166564,sunset,coucher de soleil,സൂര്യാസ്തമയം,,सूर्यास्त,pôr do sol,ocaso,tramonto,Sonnenuntergang,zonsondergang
 Q17516,street art,art de rue,,,,arte urbana,arte urbano,arte di strada,Straßenkunst,street art
-Q2703478,mirror image,image en miroir,,,दर्पण प्रतिबिंब,,imagen especular,immagine riflessa,Spiegelbild,Spiegelbeeld
+Q2703478,mirror image,image en miroir,,,दर्पण प्रतिबिंब,,imagen especular,immagine riflessa,Spiegelbild,spiegelbeeld
 Q503958,streetlight,réverbère,,,,iluminação pública,alumbrado público,lampione,Straßenlaterne,straatverlichting
 Q506,flower,fleur,പൂവ്,ਫੁੱਲ,पुष्प,flor,flor,fiore,Blüte,bloem
 Q6256,country,pays,ദേശം,ਦੇਸ਼,देश,país,país,paese,Land,land
@@ -28,10 +28,10 @@ Q7860,nature,nature,പ്രകൃതി,ਕੁਦਰਤ,प्रकृति,
 Q1594437,nightlife,vie nocturne,,,,vida noturna,vida nocturna,vita notturna,Nachtleben,nachtleven
 Q16502,world,monde,ലോകം,ਸੰਸਾਰ,जगत,mundo,mundo,mondo,Welt,wereld
 Q20437094,installation artwork,installation,പ്രതിഷ്ഠാപന കല,,,instalação,instalación artística,installazione,Installation,installatie
-Q2095,food,nourriture,ആഹാരം,ਭੋਜਨ,भोजन,alimento,alimento,alimento,Lebensmittel,voedsel
+Q2095,food,nourriture,ആഹാരം,ਖਾਣਾ,भोजन,alimento,alimento,alimento,Nahrung,voedsel
 Q40080,beach,plage,കടവ്,ਬੀਚ,समुद्र तट,praia,playa,spiaggia,Strand,strand
 Q515,city,ville,നഗരം,ਸ਼ਹਿਰ,शहर,cidade,ciudad,città,Stadt,stad
-Q532,village,village,ഗ്രാമം,ਪਿੰਡ,गाँव,aldeia,aldea,villaggio,Dorf,dorp
+Q532,village,village,ഗ്രാമം,ਪਿੰਡ,गाँव,aldeia,pueblo,villaggio,Dorf,dorp
 Q12280,bridge,pont,പാലം,ਪੁਲ,सेतु,ponte,puente,ponte,Brücke,brug
 Q179700,statue,statue,പ്രതിമ,,प्रतिमा,estátua,estatua,statua,Statue,standbeeld
 Q221706,ceiling,plafond,,,,teto,techo,soffitto,Decke,plafond
@@ -39,13 +39,13 @@ Q309,history,histoire,ചരിത്രം,ਇਤਿਹਾਸ,इतिहा�
 Q358,heritage site,site patrimonial,,,,monumento histórico,monumento histórico,monumento storico,Kulturdenkmal,beschermd monument
 Q36794,door,porte,വാതിൽ,ਬੂਹਾ,द्वार,porta,puerta,porta,Tür,deur
 Q42948,wall,mur,,ਕੰਧ,दीवार,muro,pared,muro,Mauer,muur
-Q4989906,monument,monument,,ਸਮਾਰਕ,स्मारक,monumento,monumento,monumento,Denkmal,gedenkmonument
-Q12819564,station,gare,നിലയം,,,estação,estación,stazione,Station,stationsgebouw
+Q4989906,monument,monument,സ്മാരകം,ਸਮਾਰਕ,स्मारक,monumento,monumento,monumento,Denkmal,gedenkmonument
+Q12819564,station,gare,നിലയം,,,estação,estación,stazione,Station,station
 Q165,sea,mer,കടൽ,ਸਮੁੰਦਰ,सागर,mar,mar,mare,Meer,zee
 Q23397,lake,lac,തടാകം,ਝੀਲ,झील,lago,lago,lago,See,meer
 Q283,water,eau,ജലം,ਪਾਣੀ,जल,água,agua,acqua,Wasser,water
 Q4022,river,rivière,നദി,ਦਰਿਆ,नदी,rio,río,fiume,Fluss,rivier
-Q756,plant,plante,സസ്യം,ਪੌਦਾ,पादप,Plantae,planta,piante,Pflanze,planten
+Q756,plant,plante,സസ്യം,ਪੌਦਾ,पादप,Plantae,planta,piante,Pflanzen,planten
 Q7590,transport,transport,ഗതാഗതം,ਢੋਆ-ਢੁਆਈ,परिवहन,transporte,transporte,trasporto,Transport,vervoer
 Q8063,rock,roche,പാറ,ਚੱਟਾਨ,शैल,rocha,roca,roccia,Gestein,rots of gesteente
 Q11442,bicycle,bicyclette,സൈക്കിൾ,ਸਾਈਕਲ,सायकिल,bicicleta,bicicleta,bicicletta,Fahrrad,fiets
@@ -63,7 +63,7 @@ Q200538,party,fête,,,दावत,festa,fiesta,festa,Fest,feest
 Q51406,LGBT pride,fierté LGBT,,,,orgulho gay,Orgullo Gay,orgoglio gay,Gay Pride,gay pride
 Q7397,software,logiciel,കമ്പ്യൂട്ടർ സോഫ്റ്റ്‍വെയർ,ਸਾਫ਼ਟਵੇਅਰ,सॉफ़्टवेयर,software,software,software,Software,software
 Q37807168,WikidataCon,WikidataCon,വിക്കിഡാറ്റകോണ്‍,,,WikidataCon,WikidataCon,WikidataCon,WikidataCon,WikidataCon
-Q13276,cake,gâteau,കേക്ക്,ਕੇਕ,केक,bolo,pastel,pagnottina,Kuchen,taart
+Q13276,cake,gâteau,കേക്ക്,ਕੇਕ,केक,bolo,pastel,cake,Kuchen,taart
 Q31,Belgium,Belgique,ബെൽജിയം,ਬੈਲਜੀਅਮ,बेल्जियम,Bélgica,Bélgica,Belgio,Belgien,België
 Q1003024,La Chapelle-de-la-Tour,La Chapelle-de-la-Tour,,,,La Chapelle-de-la-Tour,La Chapelle-de-la-Tour,La Chapelle-de-la-Tour,La Chapelle-de-la-Tour,La Chapelle-de-la-Tour
 Q1008814,Biol,Biol,,,,Biol,Biol,Biol,Biol,Biol
@@ -81,7 +81,7 @@ Q36433,Porto,Porto,ഒപ്പോർട്ടോ,ਪੋਰਤੋ,पोर्�
 Q45,Portugal,Portugal,പോർച്ചുഗൽ,ਪੁਰਤਗਾਲ,पुर्तगाल,Portugal,Portugal,Portogallo,Portugal,Portugal
 Q83247,Braga,Braga,,,ब्रागा,Braga,Braga,Braga,Braga,Braga
 Q1255251,Europride,Europride,,,,Europride,Europride,Europride,Europride,Europride
-Q51404,pride parade,Marche des fiertés LGBT,,,,parada LGBT,marcha del orgullo,parata del pride,Christopher Street Day,Gay Pride Parade
+Q51404,pride parade,Marche des fiertés LGBT,,,,parada LGBT,Marcha del orgullo,parata del pride,Christopher Street Day,Gay Pride Parade
 Q64610191,Europride 2019,,,,,,,,Europride 2019,
 Q16467590,Paris Pride,Marche des fiertés de Paris,,ਪੈਰਿਸ ਪ੍ਰਾਈਡ,,,,,,
 Q64916540,Paris Pride 2019,Marche des fiertés de Paris 2019,,,,,,,,
@@ -89,3 +89,95 @@ Q112390620,Lyon Pride 2022,Marche des Fiertés 2022 à Lyon,,,,,,,,
 Q55185227,Marche des Fiertés 2018 à Lyon,Marche des fiertés de Lyon 2018,,,,,,,,
 Q58982890,Lyon Gay Pride,Marche des fiertés de Lyon,,,,,,,,
 Q63959181,Lyon Pride 2016,Marche des fiertés de Lyon  2016,,,,,,,,
+Q2438638,solitary,solitaire,,,,,,,Solitär,solitair
+Q35473,window,fenêtre,,ਖਿੜਕੀ,खिड़की,janela,ventana,finestra,Fenster,venster
+Q93184,drawing,dessin,പടം വരപ്പ്,ਡਰਾਇੰਗ,रेखाचित्र,desenho,dibujo,disegno,Zeichnung,tekening
+Q183,Germany,Allemagne,ജർമ്മനി,ਜਰਮਨੀ,जर्मनी,Alemanha,Alemania,Germania,Deutschland,Duitsland
+Q39,Switzerland,Suisse,സ്വിറ്റ്സർലാന്റ്,ਸਵਿਟਜ਼ਰਲੈਂਡ,स्विट्ज़रलैण्ड,Suíça,Suiza,Svizzera,Schweiz,Zwitserland
+Q55,Netherlands,Pays-Bas,നെതർലന്റ്സ്,ਨੀਦਰਲੈਂਡ,नीदरलैण्ड,Países Baixos,Países Bajos,Paesi Bassi,Niederlande,Nederland
+Q34,Sweden,Suède,സ്വീഡൻ,ਸਵੀਡਨ,स्वीडन,Suécia,Suecia,Svezia,Schweden,Zweden
+Q41,Greece,Grèce,ഗ്രീസ്,ਯੂਨਾਨ,यूनान,Grécia,Grecia,Grecia,Griechenland,Griekenland
+Q29,Spain,Espagne,സ്പെയിൻ,ਸਪੇਨ,स्पेन,Espanha,España,Spagna,Spanien,Spanje
+Q35,Denmark,Danemark,ഡെന്മാർക്ക്,ਡੈੱਨਮਾਰਕ,डेनमार्क,Dinamarca,Dinamarca,Danimarca,Dänemark,Denemarken
+Q214,Slovakia,Slovaquie,സ്ലോവാക്യ,ਸਲੋਵਾਕੀਆ,स्लोवाकिया,Eslováquia,Eslovaquia,Slovacchia,Slowakei,Slowakije
+des,,,,,,,,,,
+Q37,Lithuania,Lituanie,ലിത്വാനിയ,ਲਿਥੁਆਨੀਆ,लिथुआनिया,Lituânia,Lituania,Lituania,Litauen,Litouwen
+Q36,Poland,Pologne,പോളണ്ട്,ਪੋਲੈਂਡ,पोलैंड,Polónia,Polonia,Polonia,Polen,Polen
+Q32,Luxembourg,Luxembourg,ലക്സംബർഗ്,ਲਕਸਮਬਰਗ,लक्ज़मबर्ग,Luxemburgo,Luxemburgo,Lussemburgo,Luxemburg,Luxemburg
+Q40,Austria,Autriche,ഓസ്ട്രിയ,ਆਸਟਰੀਆ,ऑस्ट्रिया,Áustria,Austria,Austria,Österreich,Oostenrijk
+Q191,Estonia,Estonie,എസ്റ്റോണിയ,ਏਸਟੋਨੀਆ,एस्टोनिया,Estónia,Estonia,Estonia,Estland,Estland
+Q28,Hungary,Hongrie,ഹംഗറി,ਹੰਗਰੀ,हंगरी,Hungria,Hungría,Ungheria,Ungarn,Hongarije
+Q211,Latvia,Lettonie,ലാത്‌വിയ,ਲਾਤਵੀਆ,लातविया,Letónia,Letonia,Lettonia,Lettland,Letland
+Q213,Czech Republic,Tchéquie,ചെക്ക്‌ റിപ്പബ്ലിക്ക്‌,ਚੈੱਕ ਗਣਰਾਜ,चेक गणराज्य,Chéquia,República Checa,Repubblica Ceca,Tschechien,Tsjechië
+Q237,Vatican City,Cité du Vatican,വത്തിക്കാൻ നഗരം,ਵੈਟੀਕਨ ਸਿਟੀ,वैटिकन नगर,Vaticano,Ciudad del Vaticano,Città del Vaticano,Vatikanstadt,Vaticaanstad
+Q727,Amsterdam,Amsterdam,ആംസ്റ്റർഡാം,ਅਮਸਤਰਦਮ,ऐम्स्टर्डैम,Amesterdão,Ámsterdam,Amsterdam,Amsterdam,Amsterdam
+Q7024,Lugano,Lugano,ലുഗാനോ,,,Lugano,Lugano,Lugano,Lugano,Lugano
+Q7866,Wartburgkreis,Wartburg,,,,Wartburgkreis,Wartburgkreis,circondario della Wartburg,Wartburgkreis,Wartburgkreis
+Q1741,Vienna,Vienne,വിയന്ന,ਵਿਆਨਾ,वियना,Viena,Viena,Vienna,Wien,Wenen
+Q34370,Rotterdam,Rotterdam,,,रॉटरडैम,Roterdão,Róterdam,Rotterdam,Rotterdam,Rotterdam
+Q48292,Arles,Arles,,,अर्ल्स,Arles,Arlés,Arles,Arles,Arles
+Q216,Vilnius,Vilnius,വിൽനുസ്,ਵਿਲਨਸ,विल्नुस,Vilnius,Vilna,Vilnius,Vilnius,Vilnius
+Q295574,Aveiro,Aveiro,,,,Aveiro,Aveiro,Aveiro,Aveiro,Aveiro
+Q83407,Mons,Mons,,,मॉन्स,Mons,Mons,Mons,Mons,Bergen
+Q3357,Dordogne,Dordogne,ഡോർഡോഗ്‌നെ,,दोर्दोंग,Dordonha,Dordoña,Dordogna,Dordogne,Dordogne
+Q2079,Leipzig,Leipzig,ലീപ്സിഗ്,ਲਾਈਪਸਿਸ਼,लिपजिग,Leipzig,Leipzig,Lipsia,Leipzig,Leipzig
+Q3364,Drôme,Drôme,,,ड्रोमे,Drôme,Drôme,Drôme,Département Drôme,Drôme
+Q1773,Riga,Riga,റിഗ,ਰੀਗਾ,रीगा,Riga,Riga,Riga,Riga,Riga
+Q1754,Stockholm,Stockholm,സ്റ്റോക്ക്‌ഹോം,ਸਟਾਕਹੋਮ,स्टॉकहोम,Estocolmo,Estocolmo,Stoccolma,Stockholm,Stockholm
+Q378087,Adršpach,Adršpach,,,,Adršpach,Adršpach,Adršpach,Adršpach,Adršpach
+Q1152,Auvergne,Auvergne,,ਓਵੈਰਨੀ,आवर्न,Auvérnia,Auvernia,Alvernia,Auvergne,Auvergne
+Q661046,Devín,Devín,,,,Devín,,Devín,Devín,Devín
+Q1729,Erfurt,Erfurt,,,अरफ़र्ट,Erfurt,Érfurt,Erfurt,Erfurt,Erfurt
+Q64,Berlin,Berlin,ബെർലിൻ,ਬਰਲਿਨ,बर्लिन,Berlim,Berlín,Berlino,Berlin,Berlijn
+Q671486,Bastei,Bastei,,,,Bastei,Bastei,Bastei,Bastei,Bastei
+Q1781,Budapest,Budapest,ബുഡാപെസ്റ്റ്,ਬੁਦਾਪੈਸਤ,बुडापेस्ट,Budapeste,Budapest,Budapest,Budapest,Boedapest
+Q57325,Venice,Venice,,,वेनिस,Venice,Venice,Venice,Venice,Venice
+Q1292442,Suomenlinna,Suomenlinna,,,सुआमेनलिन्ना,Suomenlinna,Suomenlinna,Suomenlinna,Suomenlinna,Suomenlinna
+Q836082,Vianden,Vianden,,,,Vianden,Vianden,Vianden,Vianden,Vianden
+Q163108,Saint-Malo,Saint-Malo,,,,Saint-Malo,Saint-Malo,Saint-Malo,Saint-Malo,Saint-Malo
+Q495,Turin,Turin,ടൂറിൻ,,टोरीनो,Turim,Turín,Torino,Turin,Turijn
+Q12191,Nantes,Nantes,,ਨੌਂਤ,नांत,Nantes,Nantes,Nantes,Nantes,Nantes
+Q71,Geneva,Genève,ജനീവ,ਜਿਨੇਵਾ,जिनेवा,Genebra,Ginebra,Ginevra,Genf,Genève
+Q23482,Marseille,Marseille,മാർസേയ്,ਮਾਰਸੇਈ,मार्सैय,Marselha,Marsella,Marsiglia,Marseille,Marseille
+Q7880,Toulouse,Toulouse,ടൂളൂസ്,ਟੁਲੂਜ਼,तुलूज़,Toulouse,Toulouse,Tolosa,Toulouse,Toulouse
+Q623376,Volvic,Volvic,,,,Volvic,Volvic,Volvic,Volvic,Volvic
+Q47476,Alhambra,Alhambra,അൽഹംബ്ര,ਅਲਾਮਬਰਾ,अल हम्रा,Alhambra,Alhambra,Alhambra,Alhambra,Alhambra
+Q3992,Liège,Liège,,,लीज,Liège,Lieja,Liegi,Lüttich,Luik
+Q690,Delft,Delft,,,डेल्फ़्ट,Delft,Delft,Delft,Delft,Delft
+Q591760,Saint-Genix-sur-Guiers,Saint-Genix-sur-Guiers,,,,Saint-Genix-sur-Guiers,Saint-Genix-sur-Guiers,Saint-Genix-sur-Guiers,Saint-Genix-sur-Guiers,Saint-Genix-sur-Guiers
+Q8692,Bilbao,Bilbao,,,बिल्बाओ,Bilbau,Bilbao,Bilbao,Bilbao,Bilbao
+Q1449,Genoa,Gênes,ജെനോവ,ਜੇਨੋਆ,जेनोआ,Génova,Génova,Genova,Genua,Genua
+Q456,Lyon,Lyon,ലിയോൺ,ਲਿਓਂ,ल्यों,Lyon,Lyon,Lione,Lyon,Lyon
+Q2464,Allier,Allier,,,,Rio Allier,Allier,Allier,Allier,Allier
+Q2706299,Vaise,Vaise,,,,Vaise,Vaise,Vaise,Vaise,Vaise
+Q202620,Loupian,Loupian,,,,Loupian,Loupian,Loupian,Loupian,Loupian
+Q219558,Saint-Nazaire-en-Royans,Saint-Nazaire-en-Royans,,,,Saint-Nazaire-en-Royans,Saint-Nazaire-en-Royans,Saint-Nazaire-en-Royans,Saint-Nazaire-en-Royans,Saint-Nazaire-en-Royans
+Q582,Villeurbanne,Villeurbanne,,,विल्लेबैने,Villeurbanne,Villeurbanne,Villeurbanne,Villeurbanne,Villeurbanne
+Q1770,Tallinn,Tallinn,ടാലിൻ,ਤਾਲਿਨ,ताल्लिन,Tallinn,Tallin,Tallinn,Tallinn,Tallinn
+Q7083,Rothenburg,Rothenburg,,,,Rothenburg,Rothenburg,Rothenburg,Rothenburg,Rothenburg
+Q325826,Pérouges,Pérouges,,,,Pérouges,Pérouges,Pérouges,Pérouges,Pérouges
+Q133824,Issoire,Issoire,,,,Issoire,Issoire,Issoire,Issoire,Issoire
+Q753087,Mauguio,Mauguio,,,,Mauguio,Mauguio,Mauguio,Mauguio,Mauguio
+Q1021152,Morestel,Morestel,,,,Morestel,Morestel,Morestel,Morestel,Morestel
+Q1792,Gdańsk,Gdańsk,ഗ്ദാൻസ്ക്,,डांस्क,Gdansk,Gdansk,Danzica,Danzig,Gdańsk
+Q1748,Copenhagen,Copenhague,കോപ്പൻഹേഗൻ,ਕੋਪਨਹੈਗਨ,कोपनहेगन,Copenhaga,Copenhague,Copenaghen,Kopenhagen,Kopenhagen
+Q2127785,Brussels,Brussels,,,,Brussels,Brussels,Brussels,Brussels,Brussels
+Q3013418,Dandelion,Dandelion,,,,Dandelion,Dandelion,Dandelion,Dandelion,Dandelion
+Q2404251,,Carnon,,,,,,,,Carnon
+Q104285,Occitania,Occitanie,,,,Occitânia,Occitania,Occitania,Okzitanien,Occitanië
+Q1085,Prague,Prague,പ്രാഗ്,ਪ੍ਰਾਗ,प्राग,Praga,Praga,Praga,Prag,Praag
+Q6397,Avignon,Avignon,,,अविगनोन,Avinhão,Aviñón,Avignone,Avignon,Avignon
+Q1492,Barcelona,Barcelone,ബാഴ്സലോണ,ਬਾਰਸੀਲੋਨਾ‎,बार्सिलोना,Barcelona,Barcelona,Barcellona,Barcelona,Barcelona
+Q191141,Sète,Sète,,,,Sète,Sète,Sète,Sète,Sète
+Q50189,Annecy,Annecy,,,अन्नेसी,Annecy,Annecy,Annecy,Annecy,Annecy
+Q357234,Coburg,Coburg,,,,,,Coburg,Coburg,Coburg
+Q631960,Pont-en-Royans,Pont-en-Royans,,,,Pont-en-Royans,Pont-en-Royans,Pont-en-Royans,Pont-en-Royans,Pont-en-Royans
+Q160544,Heraklion,Héraklion,,,हेराक्लिओन,Heraclião,Heraclión,Candia,Heraklion,Iraklion
+Q842849,Le Plantay,Le Plantay,,,,Le Plantay,Le Plantay,Le Plantay,Le Plantay,Le Plantay
+Q545,Baltic Sea,mer Baltique,ബാൾട്ടിക് കടൽ,ਬਾਲਟਿਕ ਸਾਗਰ,बाल्टिक सागर,Mar Báltico,Mar Báltico,mar Baltico,Ostsee,Oostzee
+Q1280257,Stary Sącz,Stary Sącz,,,,Stary Sącz,,,Stary Sącz,Stary Sącz
+Q802,Nowy Sącz,Nowy Sącz,,,नोवी सक्ज़,Nowy Sącz,Nowy Sącz,Nowy Sącz,Nowy Sącz,Nowy Sącz
+Q1003024,La Chapelle-de-la-Tour,,,,,,,,,
+Q3215502,Lac de Paladru,lac de Paladru,,,,Lago de Paladru,,,Lac de Paladru,Lac de Paladru
+Q20892,Le Mont-Saint-Michel,Le Mont-Saint-Michel,,,ले मॉन्ट-सेंट-मिशेल,Monte Saint-Michel,Monte Saint-Michel,Le Mont-Saint-Michel,Le Mont-Saint-Michel,Le Mont-Saint-Michel
+Q356427,Adršpach-Teplice Rocks,,,,,,Rocas Adršpach-Teplice,,Adersbach-Weckelsdorfer Felsenstadt,Rotsen van Adršpach
