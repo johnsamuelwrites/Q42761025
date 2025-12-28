@@ -18,6 +18,7 @@ Q83247,Braga,Braga,,,ब्रागा,Braga,Braga,Braga,Braga,Braga
 Q183,Germany,Allemagne,ജർമ്മനി,ਜਰਮਨੀ,जर्मनी,Alemanha,Alemania,Germania,Deutschland,Duitsland
 Q39,Switzerland,Suisse,സ്വിറ്റ്സർലാന്റ്,ਸਵਿਟਜ਼ਰਲੈਂਡ,स्विट्ज़रलैण्ड,Suíça,Suiza,Svizzera,Schweiz,Zwitserland
 Q55,Netherlands,Pays-Bas,നെതർലന്റ്സ്,ਨੀਦਰਲੈਂਡ,नीदरलैण्ड,Países Baixos,Países Bajos,Paesi Bassi,Niederlande,Nederland
+Q55,The Netherlands,Pays-Bas,നെതർലന്റ്സ്,ਨੀਦਰਲੈਂਡ,नीदरलैण्ड,Países Baixos,Países Bajos,Paesi Bassi,Niederlande,Nederland
 Q34,Sweden,Suède,സ്വീഡൻ,ਸਵੀਡਨ,स्वीडन,Suécia,Suecia,Svezia,Schweden,Zweden
 Q41,Greece,Grèce,ഗ്രീസ്,ਯੂਨਾਨ,यूनान,Grécia,Grecia,Grecia,Griechenland,Griekenland
 Q29,Spain,Espagne,സ്പെയിൻ,ਸਪੇਨ,स्पेन,Espanha,España,Spagna,Spanien,Spanje
@@ -26,12 +27,14 @@ Q214,Slovakia,Slovaquie,സ്ലോവാക്യ,ਸਲੋਵਾਕੀਆ,स
 Q37,Lithuania,Lituanie,ലിത്വാനിയ,ਲਿਥੁਆਨੀਆ,लिथुआनिया,Lituânia,Lituania,Lituania,Litauen,Litouwen
 Q36,Poland,Pologne,പോളണ്ട്,ਪੋਲੈਂਡ,पोलैंड,Polónia,Polonia,Polonia,Polen,Polen
 Q32,Luxembourg,Luxembourg,ലക്സംബർഗ്,ਲਕਸਮਬਰਗ,लक्ज़मबर्ग,Luxemburgo,Luxemburgo,Lussemburgo,Luxemburg,Luxemburg
+Q32,Luxembourg City,Luxembourg,ലക്സംബർഗ്,ਲਕਸਮਬਰਗ,लक्ज़मबर्ग,Luxemburgo,Luxemburgo,Lussemburgo,Luxemburg,Luxemburg
 Q40,Austria,Autriche,ഓസ്ട്രിയ,ਆਸਟਰੀਆ,ऑस्ट्रिया,Áustria,Austria,Austria,Österreich,Oostenrijk
 Q191,Estonia,Estonie,എസ്റ്റോണിയ,ਏਸਟੋਨੀਆ,एस्टोनिया,Estónia,Estonia,Estonia,Estland,Estland
 Q28,Hungary,Hongrie,ഹംഗറി,ਹੰਗਰੀ,हंगरी,Hungria,Hungría,Ungheria,Ungarn,Hongarije
 Q211,Latvia,Lettonie,ലാത്‌വിയ,ਲਾਤਵੀਆ,लातविया,Letónia,Letonia,Lettonia,Lettland,Letland
 Q213,Czech Republic,Tchéquie,ചെക്ക്‌ റിപ്പബ്ലിക്ക്‌,ਚੈੱਕ ਗਣਰਾਜ,चेक गणराज्य,Chéquia,República Checa,Repubblica Ceca,Tschechien,Tsjechië
 Q237,Vatican City,Cité du Vatican,വത്തിക്കാൻ നഗരം,ਵੈਟੀਕਨ ਸਿਟੀ,वैटिकन नगर,Vaticano,Ciudad del Vaticano,Città del Vaticano,Vatikanstadt,Vaticaanstad
+Q237,Vatican,Cité du Vatican,വത്തിക്കാൻ നഗരം,ਵੈਟੀਕਨ ਸਿਟੀ,वैटिकन नगर,Vaticano,Ciudad del Vaticano,Città del Vaticano,Vatikanstadt,Vaticaanstad
 Q727,Amsterdam,Amsterdam,ആംസ്റ്റർഡാം,ਅਮਸਤਰਦਮ,ऐम्स्टर्डैम,Amesterdão,Ámsterdam,Amsterdam,Amsterdam,Amsterdam
 Q7024,Lugano,Lugano,ലുഗാനോ,,,Lugano,Lugano,Lugano,Lugano,Lugano
 Q7866,Wartburgkreis,Wartburg,,,,Wartburgkreis,Wartburgkreis,circondario della Wartburg,Wartburgkreis,Wartburgkreis
@@ -82,6 +85,7 @@ Q133824,Issoire,Issoire,,,,Issoire,Issoire,Issoire,Issoire,Issoire
 Q753087,Mauguio,Mauguio,,,,Mauguio,Mauguio,Mauguio,Mauguio,Mauguio
 Q1021152,Morestel,Morestel,,,,Morestel,Morestel,Morestel,Morestel,Morestel
 Q1792,Gdańsk,Gdańsk,ഗ്ദാൻസ്ക്,,डांस्क,Gdansk,Gdansk,Danzica,Danzig,Gdańsk
+Q1792,Gdansk,Gdańsk,ഗ്ദാൻസ്ക്,,डांस्क,Gdansk,Gdansk,Danzica,Danzig,Gdańsk
 Q1748,Copenhagen,Copenhague,കോപ്പൻഹേഗൻ,ਕੋਪਨਹੈਗਨ,कोपनहेगन,Copenhaga,Copenhague,Copenaghen,Kopenhagen,Kopenhagen
 Q2127785,Brussels,Brussels,,,,Brussels,Brussels,Brussels,Brussels,Brussels
 Q3013418,Dandelion,Dandelion,,,,Dandelion,Dandelion,Dandelion,Dandelion,Dandelion
@@ -99,7 +103,47 @@ Q842849,Le Plantay,Le Plantay,,,,Le Plantay,Le Plantay,Le Plantay,Le Plantay,Le 
 Q545,Baltic Sea,mer Baltique,ബാൾട്ടിക് കടൽ,ਬਾਲਟਿਕ ਸਾਗਰ,बाल्टिक सागर,Mar Báltico,Mar Báltico,mar Baltico,Ostsee,Oostzee
 Q1280257,Stary Sącz,Stary Sącz,,,,Stary Sącz,,,Stary Sącz,Stary Sącz
 Q802,Nowy Sącz,Nowy Sącz,,,नोवी सक्ज़,Nowy Sącz,Nowy Sącz,Nowy Sącz,Nowy Sącz,Nowy Sącz
-Q1003024,La Chapelle-de-la-Tour,,,,,,,,,
+Q1003024,La Chapelle-de-la-Tour,La Chapelle-de-la-Tour,,,,,,,,
 Q3215502,Lac de Paladru,lac de Paladru,,,,Lago de Paladru,,,Lac de Paladru,Lac de Paladru
 Q20892,Le Mont-Saint-Michel,Le Mont-Saint-Michel,,,ले मॉन्ट-सेंट-मिशेल,Monte Saint-Michel,Monte Saint-Michel,Le Mont-Saint-Michel,Le Mont-Saint-Michel,Le Mont-Saint-Michel
-Q356427,Adršpach-Teplice Rocks,,,,,,Rocas Adršpach-Teplice,,Adersbach-Weckelsdorfer Felsenstadt,Rotsen van Adršpach
+Q20892,Mont Saint-Michel,Le Mont-Saint-Michel,,,ले मॉन्ट-सेंट-मिशेल,Monte Saint-Michel,Monte Saint-Michel,Le Mont-Saint-Michel,Le Mont-Saint-Michel,Le Mont-Saint-Michel
+Q356427,Adršpach-Teplice,Adršpach-Teplice,,,,,Rocas Adršpach-Teplice,,Adersbach-Weckelsdorfer Felsenstadt,Rotsen van Adršpach
+Q1296,Ghent,Gand,,,खेंट,Gante,Gante,Gand,Gent,Gent
+Q14960,Brno,Brno,,,ब्रनो,Brno,Brno,Brno,Brünn,Brno
+Q1479,Bordeaux,Bordeaux,ബോർഡോ,ਬੋਰਦੋ,बोर्दो,Bordéus,Burdeos,Bordeaux,Bordeaux,Bordeaux
+Q6582,Carcassonne,Carcassonne,,,कारकैसन,Carcassonne,Carcasona,Carcassonne,Carcassonne,Carcassonne
+Q42168,Clermont-Ferrand,Clermont-Ferrand,,,क्लेरमाँ फ़ेराँ,Clermont-Ferrand,Clermont-Ferrand,Clermont-Ferrand,Clermont-Ferrand,Clermont-Ferrand
+Q1289,Grenoble,Grenoble,,,ग्रेनोब्ल,Grenoble,Grenoble,Grenoble,Grenoble,Grenoble
+Q1227161,Lempdes,Lempdes,,,,Lempdes,Lempdes,Lempdes,Lempdes,Lempdes
+Q3327,Lourdes,Lourdes,,,,Lourdes,Lourdes,Lourdes,Lourdes,Lourdes
+Q201286,Lège-Cap-Ferret,Lège-Cap-Ferret,,,,Lège-Cap-Ferret,Lège-Cap-Ferret,Lège-Cap-Ferret,Lège-Cap-Ferret,Lège-Cap-Ferret
+Q237516,Martigues,Martigues,,,,Martigues,Martigues,Martigues,Martigues,Martigues
+Q1215040,Moissat,Moissat,,,,Moissat,Moissat,Moissat,Moissat,Moissat
+Q20892,Le Mont-Saint-Michel,Le Mont-Saint-Michel,,,ले मॉन्ट-सेंट-मिशेल,Monte Saint-Michel,Monte Saint-Michel,Le Mont-Saint-Michel,Le Mont-Saint-Michel,Le Mont-Saint-Michel
+Q6441,Montpellier,Montpellier,,,मोंटपेलियर,Montpellier,Montpellier,Montpellier,Montpellier,Montpellier
+Q6555,Narbonne,Narbonne,,,,Narbona,Narbona,Narbona,Narbonne,Narbonne
+Q90,Paris,Paris,പാരിസ്,ਪੈਰਿਸ,पैरिस,Paris,París,Parigi,Paris,Parijs
+Q647,Rennes,Rennes,,,रेन्नेस,Rennes,Rennes,Rennes,Rennes,Rennes
+Q6602,Strasbourg,Strasbourg,സ്ട്രാസ്ബർഗ്,ਸਟਰਾਸਬਰਗ,स्ट्रासबर्ग,Estrasburgo,Estrasburgo,Strasburgo,Straßburg,Straatsburg
+Q1148382,Valflaunès,Valflaunès,,,,Valflaunès,Valflaunès,Valflaunès,Valflaunès,Valflaunès
+Q151545,Wartburg,château de Wartbourg,,,वार्टबर्ग,Castelo de Wartburg,Castillo de Wartburg,Wartburg,Wartburg,Wartburg
+Q1524,Athens,Athènes,ഏതൻസ്‌,ਐਥਨਜ਼,एथेंस,Atenas,Atenas,Atene,Athen,Athene
+Q1018106,Chersonissos,Chersónissos,,,,Chersonissos,Quersoneso,Chersonissos,Chersonisos,Chersonissos
+Q1018106,Hersonissos,Chersónissos,,,,Chersonissos,Quersoneso,Chersonissos,Chersonisos,Chersonissos
+Q1891,Bologna,Bologne,,,बोलोना,Bolonha,Bolonia,Bologna,Bologna,Bologna
+Q617,Padua,Padoue,,,पडुआ,Pádua,Padua,Padova,Padua,Padua
+Q1842,Luxembourg,Luxembourg,ലക്സംബർഗ് സിറ്റി,ਲਕਸਮਬਰਗ,लक्ज़मबर्ग नगर,Luxemburgo,Luxemburgo,Lussemburgo,Luxemburg,Luxemburg
+Q1792,Gdańsk,Gdańsk,ഗ്ദാൻസ്ക്,,डांस्क,Gdansk,Gdansk,Danzica,Danzig,Gdańsk
+Q588,Katowice,Katowice,,,कटोविस,Katowice,Katowice,Katowice,Katowice,Katowice
+Q1799,Wrocław,Wrocław,,,वरोक्लाव,Wrocław,Breslavia,Breslavia,Breslau,Wrocław
+Q1780,Bratislava,Bratislava,ബ്രാട്ടിസ്‌ലാവ,ਬ੍ਰਾਤਿਸਲਾਵਾ,ब्रातिस्लावा,Bratislava,Bratislava,Bratislava,Bratislava,Bratislava
+Q1015,Koper,Koper,,,कोपेर,Koper,Koper,Capodistria,Koper,Koper
+Q437,Ljubljana,Ljubljana,ലുബ്ലിയാന,ਲਿਊਬਲਿਆਨਾ,लुब्लियाना,Liubliana,Liubliana,Lubiana,Ljubljana,Ljubljana
+Q8810,Granada,Grenade,,ਗਰਾਨਾਦਾ,ग्रानादा,Granada,Granada,Granada,Granada,Granada
+Q658271,Tibidabo,Tibidabo,,,,Tibidabo,Tibidabo,Tibidabo,Tibidabo,Tibidabo
+Q740066,Kinderdijk,Kinderdijk,,,,Kinderdijk,Kinderdijk,Kinderdijk,Kinderdijk,Kinderdijk
+Q36600,The Hague,La Haye,ഹേഗ്,ਹੇਗ,हेग,Haia,La Haya,L'Aia,Den Haag,Den Haag
+Q1018106,Chersonissos,Chersónissos,,,,Chersonissos,Quersoneso,Chersonissos,Chersonisos,Chersonissos
+Q1842,Luxembourg,Luxembourg,ലക്സംബർഗ് സിറ്റി,ਲਕਸਮਬਰਗ,लक्ज़मबर्ग नगर,Luxemburgo,Luxemburgo,Lussemburgo,Luxemburg,Luxemburg
+Q1792,Gdańsk,Gdańsk,ഗ്ദാൻസ്ക്,,डांस्क,Gdansk,Gdansk,Danzica,Danzig,Gdańsk
+Q215,Slovenia,Slovénie,സ്ലൊവീന്യ,ਸਲੋਵੇਨੀਆ,स्लोवेनिया,Eslovénia,Eslovenia,Slovenia,Slowenien,Slovenië
