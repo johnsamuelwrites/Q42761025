@@ -1,0 +1,19 @@
+PREFIX wd: <https://jsamwrites.wikibase.cloud/entity/>
+PREFIX wdt: <https://jsamwrites.wikibase.cloud/prop/direct/>
+
+SELECT ?identifier ?itemtype ?en ?fr ?ml ?pa ?hi ?pt ?es ?it  WHERE {
+  ?item rdfs:label ?anyLabel ;
+        wdt:P8 ?type;
+  BIND(REPLACE(STR(?item), "^.*/", "") AS ?identifier)
+  BIND(REPLACE(STR(?type), "^.*/", "") AS ?itemtype)
+  OPTIONAL { ?item rdfs:label ?en. FILTER(LANG(?en) = "en") }
+  OPTIONAL { ?item rdfs:label ?fr. FILTER(LANG(?fr) = "fr") }
+  OPTIONAL { ?item rdfs:label ?ml. FILTER(LANG(?ml) = "ml") }
+  OPTIONAL { ?item rdfs:label ?pa. FILTER(LANG(?pa) = "pa") }
+  OPTIONAL { ?item rdfs:label ?hi. FILTER(LANG(?hi) = "hi") }
+  OPTIONAL { ?item rdfs:label ?pt. FILTER(LANG(?pt) = "pt") }
+  OPTIONAL { ?item rdfs:label ?es. FILTER(LANG(?es) = "es") }
+  OPTIONAL { ?item rdfs:label ?it. FILTER(LANG(?it) = "it") }
+}
+GROUP BY ?identifier ?itemtype ?en ?fr ?ml ?pa ?hi ?pt ?es ?it           
+ORDER BY ?identifier

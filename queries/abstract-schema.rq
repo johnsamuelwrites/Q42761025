@@ -1,0 +1,15 @@
+SELECT ?entity ?kind ?datatype ?en ?description WHERE {
+  VALUES ?entity {
+    wd:Q3185 wd:Q3834 wd:Q3835 wd:Q3836
+    wd:P8 wd:P12 wd:P21 wd:P38 wd:P39 wd:P40 wd:P41 wd:P42
+  }
+  BIND(IF(STRSTARTS(REPLACE(STR(?entity), "^.*/", ""), "P"),
+          "property", "item") AS ?kind)
+  OPTIONAL { ?entity wikibase:propertyType ?datatype }
+  OPTIONAL { ?entity rdfs:label ?en. FILTER(LANG(?en) = "en") }
+  OPTIONAL {
+    ?entity schema:description ?description .
+    FILTER(LANG(?description) = "en")
+  }
+}
+ORDER BY ?kind ?entity

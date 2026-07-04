@@ -1,0 +1,6 @@
+SELECT ?item ?language ?text WHERE {
+  ?item wdt:P40 ?value .
+  BIND(LANG(?value) AS ?language)
+  BIND(STR(?value) AS ?text)
+}
+ORDER BY ?item ?language

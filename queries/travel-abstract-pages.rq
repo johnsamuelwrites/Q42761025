@@ -1,0 +1,14 @@
+SELECT ?page ?parent ?en ?fr ?ml ?pa ?hi ?pt ?es ?it WHERE {
+  ?page wdt:P8 wd:Q3017 ;
+        wdt:P21* wd:Q3062 .
+  OPTIONAL { ?page rdfs:label ?en. FILTER(LANG(?en) = "en") }
+  OPTIONAL { ?page rdfs:label ?fr. FILTER(LANG(?fr) = "fr") }
+  OPTIONAL { ?page rdfs:label ?ml. FILTER(LANG(?ml) = "ml") }
+  OPTIONAL { ?page rdfs:label ?pa. FILTER(LANG(?pa) = "pa") }
+  OPTIONAL { ?page rdfs:label ?hi. FILTER(LANG(?hi) = "hi") }
+  OPTIONAL { ?page rdfs:label ?pt. FILTER(LANG(?pt) = "pt") }
+  OPTIONAL { ?page rdfs:label ?es. FILTER(LANG(?es) = "es") }
+  OPTIONAL { ?page rdfs:label ?it. FILTER(LANG(?it) = "it") }
+  OPTIONAL { ?page wdt:P21 ?parent }
+}
+ORDER BY ?page

@@ -1,0 +1,16 @@
+SELECT ?identifier ?en ?fr ?ml ?pa ?hi ?pt ?es ?it ?de ?nl WHERE {
+  ?item rdfs:label ?anyLabel .
+  BIND(REPLACE(STR(?item), "^.*/", "") AS ?identifier)
+  OPTIONAL { ?item rdfs:label ?en. FILTER(LANG(?en) = "en") }
+  OPTIONAL { ?item rdfs:label ?fr. FILTER(LANG(?fr) = "fr") }
+  OPTIONAL { ?item rdfs:label ?ml. FILTER(LANG(?ml) = "ml") }
+  OPTIONAL { ?item rdfs:label ?pa. FILTER(LANG(?pa) = "pa") }
+  OPTIONAL { ?item rdfs:label ?hi. FILTER(LANG(?hi) = "hi") }
+  OPTIONAL { ?item rdfs:label ?pt. FILTER(LANG(?pt) = "pt") }
+  OPTIONAL { ?item rdfs:label ?es. FILTER(LANG(?es) = "es") }
+  OPTIONAL { ?item rdfs:label ?it. FILTER(LANG(?it) = "it") }
+  OPTIONAL { ?item rdfs:label ?de. FILTER(LANG(?de) = "de") }
+  OPTIONAL { ?item rdfs:label ?nl. FILTER(LANG(?nl) = "nl") }
+}
+GROUP BY ?identifier ?en ?fr ?ml ?pa ?hi ?pt ?es ?it ?de ?nl
+ORDER BY ?identifier

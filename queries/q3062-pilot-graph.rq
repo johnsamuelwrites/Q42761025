@@ -1,0 +1,11 @@
+SELECT ?paragraph ?function ?component ?ordinal ?language ?text WHERE {
+  BIND(wd:Q3838 AS ?paragraph)
+  ?paragraph wdt:P41 ?function .
+  ?component p:P21 ?membership ;
+             wdt:P40 ?value .
+  ?membership ps:P21 ?paragraph ;
+              pq:P42 ?ordinal .
+  BIND(LANG(?value) AS ?language)
+  BIND(STR(?value) AS ?text)
+}
+ORDER BY xsd:integer(?ordinal) ?language

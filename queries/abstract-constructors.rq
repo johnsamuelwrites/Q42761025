@@ -1,0 +1,9 @@
+SELECT ?content ?function ?functionLabel WHERE {
+  ?content wdt:P41 ?function .
+  ?function wdt:P8 wd:Q3834 .
+  OPTIONAL {
+    ?function rdfs:label ?functionLabel .
+    FILTER(LANG(?functionLabel) = "en")
+  }
+}
+ORDER BY ?content ?function

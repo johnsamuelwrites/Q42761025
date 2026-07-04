@@ -1,0 +1,11 @@
+SELECT ?parent ?component ?ordinal WHERE {
+  ?component p:P21 ?membership .
+  ?membership ps:P21 ?parent .
+  OPTIONAL { ?membership pq:P42 ?ordinal }
+  FILTER(
+    EXISTS { ?component wdt:P8 wd:Q3836 } ||
+    EXISTS { ?component wdt:P8 wd:Q3835 } ||
+    EXISTS { ?component wdt:P8 wd:Q3185 }
+  )
+}
+ORDER BY ?parent xsd:integer(?ordinal) ?component
