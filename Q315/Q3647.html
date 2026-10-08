@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zxx" data-abstract-page="local:Q3647" data-abstract-version="1">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="https://johnsamuel.info/images/logo/favicon.png" />
+        <title>Q3647</title>
+        <link rel="stylesheet" href="assets/css/pages/Q3647.css" data-q315-css="Q3647" />
+        <!-- Generated abstract pilot from Wikibase mappings. -->
+    <link rel="alternate" hreflang="en" href="https://johnsamuel.info/en/search.html" />
+    <link rel="alternate" hreflang="fr" href="https://johnsamuel.info/fr/recherche.html" />
+    <link rel="alternate" hreflang="ml" href="https://johnsamuel.info/ml/തിരയൽ.html" />
+    <link rel="alternate" hreflang="pa" href="https://johnsamuel.info/pa/ਖੋਜ.html" />
+    <link rel="alternate" hreflang="hi" href="https://johnsamuel.info/hi/खोज.html" />
+    <link rel="alternate" hreflang="pt" href="https://johnsamuel.info/pt/search.html" />
+    <link rel="alternate" hreflang="es" href="https://johnsamuel.info/es/search.html" />
+    <link rel="alternate" hreflang="it" href="https://johnsamuel.info/it/search.html" />
+
+<link rel="stylesheet" href="assets/css/language-switcher.css" />
+</head>
+
+    <body>
+        <!-- Navigation -->
+        <nav class="navigation" role="navigation">
+            <div class="nav-container">
+                <a href="./index.html" class="nav-brand">Q42761025</a>
+                <ul class="nav-menu">
+                    <li><a href="Q3636/index.html" data-content="local:Q4180">Q4180</a></li>
+                    <li><a href="Q7945/index.html" data-content="local:Q4181">Q4181</a></li>
+                    <li><a href="Q3638/index.html" data-content="local:Q4050">Q4050</a></li>
+                    <li><a href="Q7947/index.html" data-content="local:Q3650">Q3650</a></li>
+                    <li><a href="Q3062/index.html">Q3062</a></li>
+                    <li><a href="Q3647.html">Q3647</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+            <div class="search-header">
+                <h1>Q3647</h1>
+                <p data-content="local:Q7790">Q7790</p>
+            </div>
+
+            <div class="search-container">
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" class="search-input"
+                        placeholder="Search for topics, articles, photos, or courses..." autocomplete="off" autofocus>
+                </div>
+                <div class="search-filters">
+                    <button class="filter-btn active" data-category="all" data-content="local:Q7791">Q7791</button>
+                    <button class="filter-btn" data-category="research" data-content="local:Q4180">Q4180</button>
+                    <button class="filter-btn" data-category="teaching" data-content="local:Q4181">Q4181</button>
+                    <button class="filter-btn" data-category="writings" data-content="local:Q4050">Q4050</button>
+                    <button class="filter-btn" data-category="linguistics" data-content="local:Q3650">Q3650</button>
+                    <button class="filter-btn" data-category="travel">Q3062</button>
+                    <button class="filter-btn" data-category="general">Q3667</button>
+                    <button class="filter-btn" data-category="search">Q3647</button>
+                </div>
+            </div>
+
+            <div id="searchStats" class="search-stats"></div>
+            <div id="resultsContainer" class="results-container"></div>
+        </main>
+        <footer class="footer">
+            <div class="lang-selector">
+                <a class="lang-btn active" href="Q3647.html" hreflang="x-default" lang="zxx">Q315</a>
+                <a class="lang-btn" href="https://johnsamuel.info/en/search.html" hreflang="en" lang="en">English</a>
+                <a class="lang-btn" href="https://johnsamuel.info/fr/recherche.html" hreflang="fr" lang="fr">Français</a>
+                <a class="lang-btn" href="https://johnsamuel.info/ml/തിരയൽ.html" hreflang="ml" lang="ml">മലയാളം</a>
+                <a class="lang-btn" href="https://johnsamuel.info/pa/ਖੋਜ.html" hreflang="pa" lang="pa">ਪੰਜਾਬੀ</a>
+                <a class="lang-btn" href="https://johnsamuel.info/hi/खोज.html" hreflang="hi" lang="hi">हिन्दी</a>
+                <a class="lang-btn" href="https://johnsamuel.info/pt/search.html" hreflang="pt" lang="pt">Português</a>
+                <a class="lang-btn" href="https://johnsamuel.info/es/search.html" hreflang="es" lang="es">Español</a>
+                <a class="lang-btn" href="https://johnsamuel.info/it/search.html" hreflang="it" lang="it">Italiano</a>
+            </div>
+        </footer>
+
+
+        <script>
+            let searchData = [];
+            let currentCategory = 'all';
+
+            // Initialize search
+            async function initSearch() {
+                try {
+                    const response = await fetch('./search-index.json');
+                    if (response.ok) {
+                        searchData = await response.json();
+                    } else {
+                        searchData = await generateBasicIndex();
+                    }
+                } catch (error) {
+                    console.error('Error loading search index:', error);
+                    searchData = [];
+                }
+            }
+
+            async function generateBasicIndex() {
+                const pages = [
+                    { qid: 'Q315', url: './index.html', title: 'Q315', category: 'general' },
+                    { qid: 'Q3633', url: './Q3633.html', title: 'Q3633', category: 'general' },
+                    { qid: 'Q3634', url: './Q3634.html', title: 'Q3634', category: 'writings' },
+                    { qid: 'Q3636', url: './Q3636/index.html', title: 'Q3636', category: 'research' },
+                    { qid: 'Q3638', url: './Q3638/index.html', title: 'Q3638', category: 'writings' },
+                    { qid: 'Q7945', url: './Q7945/index.html', title: 'Q7945', category: 'teaching' },
+                    { qid: 'Q7947', url: './Q7947/index.html', title: 'Q7947', category: 'linguistics' },
+                    { qid: 'Q3062', url: './Q3062/index.html', title: 'Q3062', category: 'travel' },
+                ];
+                return pages;
+            }
+
+            // Search function
+            function performSearch(query) {
+                if (!query || query.length < 2) {
+                    displayResults([]);
+                    return;
+                }
+
+                const searchTerms = query.toLowerCase().split(/\s+/);
+
+                const results = searchData.filter(item => {
+                    // Filter by category
+                    if (currentCategory !== 'all' && item.category !== currentCategory) {
+                        return false;
+                    }
+
+                    // Search in title and content
+                    const searchText = `${item.qid || ''} ${item.title} ${item.content || ''} ${item.url}`.toLowerCase();
+                    return searchTerms.every(term => searchText.includes(term));
+                });
+
+                // Sort by relevance (title matches first)
+                results.sort((a, b) => {
+                    return relevanceScore(b, searchTerms) - relevanceScore(a, searchTerms);
+                });
+
+                displayResults(results, query);
+            }
+
+            function relevanceScore(item, searchTerms) {
+                const qid = (item.qid || '').toLowerCase();
+                const title = item.title.toLowerCase();
+                const url = item.url.toLowerCase();
+                return searchTerms.reduce((score, term) => {
+                    if (qid === term) return score + 100;
+                    if (qid.includes(term)) return score + 50;
+                    if (title.includes(term)) return score + 20;
+                    if (url.includes(term)) return score + 10;
+                    return score + 1;
+                }, 0);
+            }
+
+            // Display results
+            function displayResults(results, query = '') {
+                const container = document.getElementById('resultsContainer');
+                const stats = document.getElementById('searchStats');
+
+                if (!query) {
+                    container.innerHTML = '';
+                    stats.innerHTML = '';
+                    return;
+                }
+
+                if (results.length === 0) {
+                    stats.innerHTML = '';
+                    container.innerHTML = `
+                    <div class="no-results">
+                        <div class="no-results-icon">🔍</div>
+                        <h2>Q3833</h2>
+                        <p>Try different keywords or remove filters</p>
+                    </div>
+                `;
+                    return;
+                }
+
+                stats.textContent = `Found ${results.length} result${results.length !== 1 ? 's' : ''} for "${query}"`;
+
+                container.innerHTML = results.map(result => {
+                    const excerpt = getExcerpt(result.content || result.title, query);
+                    const categoryLabel = result.category || 'general';
+                    const qid = result.qid ? `<span class="result-qid">${escapeHtml(result.qid)}</span>` : '';
+
+                    return `
+                    <div class="result-card">
+                        <span class="result-category">${escapeHtml(categoryLabel)}</span>
+                        ${qid}
+                        <h2 class="result-title">
+                            <a href="${escapeHtml(result.url)}">${highlightText(result.title, query)}</a>
+                        </h2>
+                        <p class="result-excerpt">${excerpt}</p>
+                        <a href="${escapeHtml(result.url)}" class="result-url">${escapeHtml(result.url)} →</a>
+                    </div>
+                `;
+                }).join('');
+            }
+
+            // Highlight search terms
+            function highlightText(text, query) {
+                if (!query) return escapeHtml(text);
+                const terms = query.split(/\s+/);
+                let highlighted = escapeHtml(text);
+                terms.forEach(term => {
+                    const regex = new RegExp(`(${escapeRegex(term)})`, 'gi');
+                    highlighted = highlighted.replace(regex, '<mark>$1</mark>');
+                });
+                return highlighted;
+            }
+
+            // Get excerpt with context
+            function getExcerpt(text, query, length = 200) {
+                if (!text) return '';
+
+                const terms = query.toLowerCase().split(/\s+/);
+                const textLower = text.toLowerCase();
+
+                // Find first occurrence of any search term
+                let position = -1;
+                for (const term of terms) {
+                    const pos = textLower.indexOf(term);
+                    if (pos !== -1 && (position === -1 || pos < position)) {
+                        position = pos;
+                    }
+                }
+
+                if (position === -1) {
+                    // No match found, return beginning
+                    return highlightText(text.substring(0, length), query) + (text.length > length ? '...' : '');
+                }
+
+                // Get context around the match
+                const start = Math.max(0, position - 50);
+                const end = Math.min(text.length, position + length);
+                let excerpt = text.substring(start, end);
+
+                if (start > 0) excerpt = '...' + excerpt;
+                if (end < text.length) excerpt = excerpt + '...';
+
+                return highlightText(excerpt, query);
+            }
+
+            // Escape regex special characters
+            function escapeRegex(string) {
+                return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            }
+
+            function escapeHtml(string) {
+                return String(string).replace(/[&<>"']/g, character => ({
+                    '&': '&amp;',
+                    '<': '&lt;',
+                    '>': '&gt;',
+                    '"': '&quot;',
+                    "'": '&#39;'
+                }[character]));
+            }
+
+            // Event listeners
+            document.getElementById('searchInput').addEventListener('input', (e) => {
+                performSearch(e.target.value);
+            });
+
+            // Category filters
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', function () {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    currentCategory = this.dataset.category;
+                    performSearch(document.getElementById('searchInput').value);
+                });
+            });
+
+            // Initialize on load and handle URL parameters
+            async function init() {
+                await initSearch();
+
+                // Check for query parameter in URL
+                const urlParams = new URLSearchParams(window.location.search);
+                const query = urlParams.get('q');
+
+                if (query) {
+                    document.getElementById('searchInput').value = query;
+                    performSearch(query);
+                }
+            }
+
+            init();
+        </script>
+    </body>
+
+</html>

@@ -1,330 +1,356 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx" data-abstract-page="local:Q315" data-abstract-version="1">
+
   <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="Content-Language" content="en"/>
-    <link rel="shortcut icon" href="../images/logo/favicon.png"/>
-    <title>Q11439: Q42761025</title>
-    <style type="text/css">
-    body{
-      background-color: #FFFFFF;
-    }
-    #sidebar {
-      position: fixed;
-      background-color: #87634B;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      width:30vw;
-    }
-    .title {
-      position:relative;
-      top: 40vh;
-      text-align: center;
-      line-height: 7vh;
-      font-size: 2.0vmax;
-      font-family: 'Arial';
-    }
-    .title a:link, 
-    .title a:visited{
-     text-decoration:none;
-     color:#FFFFFF;
-    }
-    .licence {
-      position:fixed;
-      text-align: right;
-      bottom:0;
-      right:0;
-    }
-    .home {
-     text-align: left;
-     font-family: 'Arial';
-     color: #D3D3D3;
-    }
-    .content {
-     line-height: 2.7vmax;
-     font-size: 1.5vmax;
-     font-family: 'Arial';
-    }
-    .content h3 {
-     color: #1B80CF;
-    }
-    .content a:link,
-    .content a:visited{
-     color:#1B80CF;
-    }
-   .content ul{
-     color:#1B80CF;
-     line-height: 3.0vmax;
-     list-style:none;
-    }
-    .home ul{
-      margin: 0;
-      padding: 0;
-      text-align: left;
-      list-style:none;
-    }
-    .home li{
-     position: relative;
-     float: left;
-     padding-top:15px;
-     margin-right: 1em;
-     font-family: 'Arial';
-    }
-    .home li:hover {
-      display:block;
-    }
-    .home li:hover a:link,
-    .home li:hover a:visited{
-      text-decoration:none;
-      padding:15px;
-      border-radius:20px;
-      color:#FFFFFF;
-      background-color: #87634B;
-      transition: all 0.5s ease-out;
-    }
-    .home ul ul {
-      display:none;
-      position:absolute;
-      padding:5px;
-    }
-    .home ul ul li{
-     float:none;
-     padding-left:0px;
-     padding-top:15px;
-     padding-bottom:15px;
-     width:150px;
-    }
-    .home li:hover ul{
-      display:block;
-    }
-    .content {
-     line-height: 1.6em;
-     font-size: 1.3vmax;
-     font-family: 'Arial';
-     margin-top: 8vh;
-    }
-    .content h3,h2,h4{
-     color:#1B80CF;
-    }
-    .content a:link,
-    .content a:visited{
-     color:#1B80CF;
-    }
-    .home a:link,
-    .home a:visited{
-     text-decoration:none;
-     color: #D3D3D3;
-    }
-    .page {
-      width:70vw;
-      height:100%;
-      margin-left:30vw;
-      overflow: auto;
-      padding: 0 1em;
-    }
-    .page img {
-      max-width:90%;
-      max-height:90%;
-      border:0;
-    }
-    #backgroundimage {
-      opacity:0.7;
-      left:30vw;
-      position:fixed;
-      z-index:0;
-    }
-    #foregroundtext {
-      text-align:right;
-      position:relative;
-      max-width:80%;
-      z-index:1;
-    }  
-    @media (max-width: 600px), screen  and (orientation: portrait) {
-      body {
-        max-width:100%;
-        max-height:100%;
-      }
-      #sidebar {
-        position: fixed;
-        background-color: #87634B;
-        top: 0;
-        left: 0;
-        bottom: 60vh;
-        width:100vw;
-      }
-      #sidebar .title {
-        position:relative;
-        text-align: center;
-        top: 15vh;
-        line-height: 7vh;
-        font-size: 3.2vmax;
-        font-family: 'Arial';
-      }
-      #sidebar a:link,
-      #sidebar a:visited{
-        text-decoration:none;
-        color:#FFFFFF;
-      }
-      .content {
-        line-height: 3.8vmax;
-        font-size: 3.0vmax;
-        font-family: 'Arial';
-      }
-      .content a:link,
-      .content a:visited{
-        color:#1B80CF;
-      }
-      .page {
-        top: 40vh;
-        width:100%;
-        height:80vh;
-        margin-left:0vw;
-      }
-      .page img {
-        max-width:100%;
-        max-height:100%;
-        border:0;
-      }
-      #backgroundimage {
-        opacity:0.7;
-        position:fixed;
-        left:0vw;
-        bottom:10vh;
-        z-index:0;
-      }
-      #foregroundtext {
-        text-align:right;
-        top:30vh;
-        max-width:90%;
-        z-index:1;
-      }  
-      .home {
-       text-align: left;
-       font-family: 'Arial';
-       font-size: 2.0vmax;
-       color: #D3D3D3;
-      }
-      .home a:link,
-      .home a:visited{
-       text-decoration:none;
-       color: #D3D3D3;
-      }
-      .home ul{
-        font-size:1.6vmax;
-        line-height: 4.0vh;
-      }
-      .content ul{
-        color:#1B80CF;
-        font-size: 2.0vmax;
-        line-height: 5.0vmax;
-        list-style:none;
-      }
-    }
-    @media (max-width: 800px) and screen  and (orientation: landscape) {
-      .content ul{
-        font-size: 2.0vmax;
-        line-height: 4.0vmax;
-      }
-      .home{
-        font-size:1.6vmax;
-      }
-      .home a:link,
-      .home a:visited{
-       text-decoration:none;
-       color: #D3D3D3;
-      }
-    }
-    @media (max-width: 600px) and screen  and (orientation: landscape) {
-      .content ul{
-        font-size: 2.5vmax;
-        line-height: 4.0vmax;
-      }
-      .home{
-        font-size:1.6vmax;
-      }
-      .home a:link,
-      .home a:visited{
-       text-decoration:none;
-       color: #D3D3D3;
-      }
-    }
-  </style>
-  <script type="application/ld+json">
-      {"@context": "http://schema.org", "@type": "BlogPosting", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://johnsamuel.info"}, "articleSection": "blog", "name": "Homepage", "headline": "Homepage", "description": "Article by John Samuel", "inLanguage": "en", "author": "John Samuel", "datePublished": "2014-07-26 15:26:00", "dateModified": "2020-05-06 00:31:24", "dateCreated": "2014-07-26 15:26:00", "url": "https://johnsamuel.info/en/index.html", "image": {"@type": "imageObject", "url": "https://johnsamuel.info/images/writings/coconut-trees-landscape.svg", "height": "600", "width": "800"}, "publisher": {"@type": "Organization", "name": "John Samuel", "logo": {"@type": "imageObject", "url": "https://johnsamuel.info/images/writings/coconut-trees-landscape.svg"}}, "keywords": ["Blog"]}
-    </script>
-  </head>
-  <body vocab="http://schema.org/" typeof="WebPage">
-    <div id="sidebar">
-     <div class="title">
-      <h1><a href="./index.html"><span property="headline">Q42761025</span></a></h1>
-     </div>
-    </div>
-    <div class="licence"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-     <img alt="Creative Commons License" style="border-width:0" src="./../Q340169/Q79719.png"/></a>
-    </div>
-    <div class="page" typeof="WebPage">
-      <div class="home">
-       <ul typeof="BreadcrumbList">
-        <li property="itemListElement" typeof="ListItem">
-         <a property="item" typeof="WebPage" href="../index.html">
-          <span property="name">Q11439</span>
-         </a>
-         <meta property="position" content="1"/>
-        </li>
-        <li property="itemListElement" typeof="ListItem">
-         <a property="item" typeof="WebPage" href="Q42240/Q42240.html">
-          <span property="name">Q42240</span>
-         </a>
-         <meta property="position" content="2"/>
-        </li>
-        <li property="itemListElement" typeof="ListItem">
-         <a property="item" typeof="WebPage" href="Q352842/index.html">
-          <span property="name">Q352842</span>
-         </a>
-         <meta property="position" content="3"/>
-        </li>
-        <li property="itemListElement" typeof="ListItem">
-          <a property="item" typeof="WebPage" href="Q47461344/index.html">
-           <span property="name">Q47461344</span>
-          </a>
-          <meta property="position" content="4"/>
-        </li>
-        <li property="itemListElement" typeof="ListItem">
-          <a property="item" typeof="WebPage" href="Q8162/index.html">
-           <span property="name">Q8162</span>
-          </a>
-          <meta property="position" content="5"/>
-        </li>
-        <li property="itemListElement" typeof="ListItem">
-         <a property="item" typeof="WebPage" href="Q61509/index.html">
-           <span property="name">Q61509</span>
-         </a>
-         <meta property="position" content="6"/>
-        </li>
-       </ul>
-      </div>
-      <div class="content">
-        <br/>
-        <img property="image" src="../Q340169/Q35872.svg" id="backgroundimage" alt="Coconut tree and boat"/>
-        <div id="foregroundtext">
-        <h3>Q3702971</h3>
-        <ul typeof="BreadcrumbList">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://johnsamuel.info/images/logo/favicon.png" />
+    <title>Q315</title>
+    <link rel="stylesheet" href="assets/css/pages/Q315.css" data-q315-css="Q315" />
+      <!-- Generated abstract pilot from Wikibase mappings. -->
+    <link rel="alternate" hreflang="en" href="https://johnsamuel.info/en/index.html" />
+    <link rel="alternate" hreflang="fr" href="https://johnsamuel.info/fr/index.html" />
+    <link rel="alternate" hreflang="ml" href="https://johnsamuel.info/ml/index.html" />
+    <link rel="alternate" hreflang="pa" href="https://johnsamuel.info/pa/index.html" />
+    <link rel="alternate" hreflang="hi" href="https://johnsamuel.info/hi/index.html" />
+    <link rel="alternate" hreflang="pt" href="https://johnsamuel.info/pt/index.html" />
+    <link rel="alternate" hreflang="es" href="https://johnsamuel.info/es/index.html" />
+    <link rel="alternate" hreflang="it" href="https://johnsamuel.info/it/index.html" />
+
+<link rel="stylesheet" href="assets/css/language-switcher.css" />
+</head>
+
+  <body>
+    <!-- Accessibility Skip Link -->
+    <a href="#main-content" class="skip-link" data-content="local:Q4168">Q4168</a>
+
+    <!-- Floating Decorative Shapes -->
+    <div class="floating-shape floating-shape-1"></div>
+    <div class="floating-shape floating-shape-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navigation" role="navigation" aria-label="Main navigation">
+      <div class="nav-container">
+        <a href="../index.html" class="nav-brand" data-entity="wikidata:Q42761025">Q42761025</a>
+        <ul class="nav-menu" typeof="BreadcrumbList">
           <li property="itemListElement" typeof="ListItem">
-            <a property="item" typeof="WebPage" href="Q47461344/index.html">
-             <span property="name">Q186649</span>
+            <a property="item" typeof="WebPage" href="Q3636/Q7944.html">
+              <span property="name" data-content="local:Q4180">Q4180</span>
             </a>
-            <meta property="position" content="1"/>
+            <meta property="position" content="1" />
           </li>
           <li property="itemListElement" typeof="ListItem">
-            <a property="item" typeof="WebPage" href="Q906118.html">
-             <span property="name">Q906118</span>
+            <a property="item" typeof="WebPage" href="Q7945/index.html">
+              <span property="name" data-content="local:Q4181">Q4181</span>
             </a>
-            <meta property="position" content="5"/>
+            <meta property="position" content="2" />
+          </li>
+          <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="Q3638/index.html">
+              <span property="name" data-content="local:Q4050">Q4050</span>
+            </a>
+            <meta property="position" content="3" />
+          </li>
+          <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="Q7947/index.html">
+              <span property="name" data-content="local:Q3650">Q3650</span>
+            </a>
+            <meta property="position" content="4" />
+          </li>
+          <li property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="Q3062/index.html">
+              <span property="name">Q3062</span>
+            </a>
+            <meta property="position" content="5" />
           </li>
         </ul>
-       </div>
       </div>
-    </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+      <!-- Hero Section -->
+      <section class="hero-section" aria-labelledby="hero-heading">
+        <div class="hero-container">
+          <div class="hero-content">
+            <h1 id="hero-heading" data-entity="wikidata:Q42761025">Q42761025</h1>
+            <ul class="hero-links" typeof="BreadcrumbList">
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q3636/index.html">
+                  <span property="name" data-content="local:Q4098">Q4098</span>
+                </a>
+                <meta property="position" content="1" />
+              </li>
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q3638/Q3644.html">
+                  <span property="name" data-entity="local:Q3644">Q3644</span>
+                </a>
+                <meta property="position" content="2" />
+              </li>
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q3633.html">
+                  <span property="name" data-content="local:Q4099">Q4099</span>
+                </a>
+                <meta property="position" content="3" />
+              </li>
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q3634.html">
+              <span property="name" data-content="local:Q4169">Q4169</span>
+                </a>
+                <meta property="position" content="4" />
+              </li>
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q3638/Q3639.html">
+                  <span property="name" data-entity="local:Q3639">Q3639</span>
+                </a>
+                <meta property="position" content="5" />
+              </li>
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q3635.html">
+                  <span property="name" data-entity="local:Q3635">Q3635</span>
+                </a>
+                <meta property="position" content="6" />
+              </li>
+            </ul>
+          </div>
+          <div class="hero-image-wrapper">
+            <div class="hero-image-container">
+              <img src="https://johnsamuel.info/images/portrait.jpg" alt="" data-content-alt="local:Q9319" >
+            </div>
+            <a href="Q3633.html" class="read-more-link" data-content="local:Q4170">Q4170</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Teaching Section -->
+      <section class="content-section teaching-section" aria-labelledby="teaching-heading">
+        <div class="section-container">
+          <div class="section-image">
+            <img src="https://johnsamuel.info/images/art/courses/education.svg" alt="" data-content-alt="local:Q9320" >
+          </div>
+          <div class="section-content">
+            <h2 id="teaching-heading">Q3648</h2>
+            <ul class="section-links" typeof="BreadcrumbList">
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q7945/index.html">
+                  <span property="name" data-content="local:Q4171">Q4171</span>
+                </a>
+                <meta property="position" content="1" />
+              </li>
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q7945/Q7946.html">
+                  <span property="name" data-content="local:Q4172">Q4172</span>
+                </a>
+                <meta property="position" content="2" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Travel Section -->
+      <section class="content-section travel-section" aria-labelledby="travel-heading">
+        <div class="section-container section-reverse">
+          <div class="section-content">
+            <h2 id="travel-heading">Q3062</h2>
+            <ul class="section-links" typeof="BreadcrumbList">
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q3062/index.html">
+                  <span property="name" data-content="local:Q4102">Q4102</span>
+                </a>
+                <meta property="position" content="1" />
+              </li>
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q3062/Q3026.html">
+                  <span property="name" data-content="local:Q4103">Q4103</span>
+                </a>
+                <meta property="position" content="2" />
+              </li>
+            </ul>
+          </div>
+          <div class="section-image">
+            <img
+              src="https://johnsamuel.info/images/photography/1280px-Dome_of_the_Chapel_of_the_Baptistery_in_Saint_Peter's_Basilica,_Vatican.jpg" alt="" data-content-alt="local:Q9321" >
+          </div>
+        </div>
+      </section>
+
+      <!-- Research Section -->
+      <section class="content-section research-section" aria-labelledby="research-heading">
+        <div class="section-container">
+          <div class="section-image">
+            <img src="https://johnsamuel.info/images/art/courses/degree.svg" alt="" data-content-alt="local:Q9322" >
+          </div>
+          <div class="section-content">
+            <h2 id="research-heading">Q3649</h2>
+            <ul class="section-links" typeof="BreadcrumbList">
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q3636/index.html">
+                  <span property="name" data-content="local:Q4100">Q4100</span>
+                </a>
+                <meta property="position" content="1" />
+              </li>
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q3636/Q7944.html">
+                  <span property="name" data-content="local:Q4174">Q4174</span>
+                </a>
+                <meta property="position" content="2" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Writings Section -->
+      <section class="content-section writings-section" aria-labelledby="writings-heading">
+        <div class="section-container section-reverse">
+          <div class="section-content">
+            <h2 id="writings-heading">Q3638</h2>
+            <ul class="section-links" typeof="BreadcrumbList">
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q3638/index.html">
+                  <span property="name" data-content="local:Q4106">Q4106</span>
+                </a>
+                <meta property="position" content="1" />
+              </li>
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q3638/Q3640.html">
+                  <span property="name" data-content="local:Q4175">Q4175</span>
+                </a>
+                <meta property="position" content="2" />
+              </li>
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q3638/Q3641.html">
+                  <span property="name" data-content="local:Q4176">Q4176</span>
+                </a>
+                <meta property="position" content="3" />
+              </li>
+            </ul>
+          </div>
+          <div class="section-image">
+            <img src="https://johnsamuel.info/images/photography/1280px-Livraria_Lello_glass_ceiling,_Porto.jpg" alt="" data-content-alt="local:Q9323" >
+          </div>
+        </div>
+      </section>
+
+      <!-- Linguistics Section -->
+      <section class="content-section linguistics-section" aria-labelledby="linguistics-heading">
+        <div class="section-container">
+          <div class="section-image">
+            <img src="https://johnsamuel.info/images/photography/1280px-Exterior_of_Temple_Expiatori_del_Sagrat_Cor_01.jpg" alt="" data-content-alt="local:Q9324" >
+          </div>
+          <div class="section-content">
+            <h2 id="linguistics-heading">Q3650</h2>
+            <ul class="section-links" typeof="BreadcrumbList">
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q7947/index.html">
+                  <span property="name" data-content="local:Q4177">Q4177</span>
+                </a>
+                <meta property="position" content="1" />
+              </li>
+              <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" href="Q7947/Q7948.html">
+                  <span property="name" data-content="local:Q4178">Q4178</span>
+                </a>
+                <meta property="position" content="2" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- External Links Section -->
+      <section class="external-section" aria-labelledby="external-heading">
+        <div class="external-container">
+          <div class="external-grid">
+            <div class="external-column">
+              <h2 id="external-heading">Q3651</h2>
+              <ul class="external-links">
+                <li><a href="https://orcid.org/0000-0001-8721-7007" data-content="local:Q4155">Q4155</a></li>
+                <li><a href="https://publons.com/author/1501314/john-samuel" data-content="local:Q4156">Q4156</a></li>
+                <li><a href="https://www.wikidata.org/wiki/Q42761025" data-entity="local:Q27">Q27</a></li>
+                <li><a href="https://hypothes.is/users/jsamwrites" data-content="local:Q4157">Q4157</a></li>
+                <li><a href="https://www.researchgate.net/profile/John_Samuel30" data-content="local:Q4158">Q4158</a></li>
+                <li><a href="https://www.linkedin.com/in/johnsamuelwrites" data-content="local:Q4159">Q4159</a></li>
+                <li><a href="https://twitter.com/jsamwrites" data-content="local:Q4160">Q4160</a></li>
+              </ul>
+            </div>
+            <div class="external-column">
+              <h2>Q3652</h2>
+              <ul class="external-links">
+                <li><a href="Q3638/Q3640.html">Q3640</a></li>
+                <li><a href="Q3638/Q3641.html" data-entity="local:Q3641">Q3641</a>
+                </li>
+                <li><a href="Q3638/Q3642.html" data-entity="local:Q3642">Q3642</a></li>
+                <li><a href="Q3062/index.html">Q3062</a></li>
+                <li><a href="Q3638/Q3643.html" data-entity="local:Q3643">Q3643</a></li>
+                <li><a href="Q3638/Q7949.html" data-content="local:Q3756">Q3756</a></li>
+                <li><a href="Q3638/Q3639.html" data-entity="local:Q3639">Q3639</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Search Section -->
+      <section class="search-section" aria-labelledby="search-heading">
+        <div class="search-container-home">
+          <h2 id="search-heading">Q3653</h2>
+          <p data-content="local:Q4108">Q4108</p>
+
+          <form action="./Q3647.html" method="get" class="search-box-home">
+            <span class="search-icon-home">🔍</span>
+            <input type="search" name="q" class="search-input-home"
+              placeholder="Search for topics, courses, places, or articles..." aria-label="Search website">
+          </form>
+
+          <a href="Q3647.html" class="search-cta" data-content="local:Q4179">Q4179</a>
+
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <h3 data-entity="wikidata:Q42761025">Q42761025</h3>
+            <p data-content="local:Q4109">Q4109</p>
+          </div>
+          <div class="lang-selector">
+              <a class="lang-btn active" href="index.html" hreflang="x-default" lang="zxx">Q315</a>
+              <a class="lang-btn" href="https://johnsamuel.info/en/index.html" hreflang="en" lang="en">English</a>
+              <a class="lang-btn" href="https://johnsamuel.info/fr/index.html" hreflang="fr" lang="fr">Français</a>
+              <a class="lang-btn" href="https://johnsamuel.info/ml/index.html" hreflang="ml" lang="ml">മലയാളം</a>
+              <a class="lang-btn" href="https://johnsamuel.info/pa/index.html" hreflang="pa" lang="pa">ਪੰਜਾਬੀ</a>
+              <a class="lang-btn" href="https://johnsamuel.info/hi/index.html" hreflang="hi" lang="hi">हिन्दी</a>
+              <a class="lang-btn" href="https://johnsamuel.info/pt/index.html" hreflang="pt" lang="pt">Português</a>
+              <a class="lang-btn" href="https://johnsamuel.info/es/index.html" hreflang="es" lang="es">Español</a>
+              <a class="lang-btn" href="https://johnsamuel.info/it/index.html" hreflang="it" lang="it">Italiano</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p data-content="local:Q4110">Q4110</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Handle search form submission
+      const searchForm = document.querySelector('.search-box-home');
+      const searchInput = document.querySelector('.search-input-home');
+
+      if (searchForm && searchInput) {
+        searchForm.addEventListener('submit', function (e) {
+          const query = searchInput.value.trim();
+          if (query) {
+            e.preventDefault();
+            window.location.href = `./Q3647.html?q=${encodeURIComponent(query)}`;
+          }
+        });
+      }
+    </script>
   </body>
+
 </html>
